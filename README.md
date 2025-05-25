@@ -1,1 +1,120 @@
-# Azure-Data-Factory-CSV-to-Azure-SQL-ETL-Pipeline
+# Azure Data Factory: CSV to Azure SQL ETL Pipeline
+
+This project demonstrates how to use **Azure Data Factory (ADF)** to ingest, transform, and load unstructured CSV data from an Azure Storage Account into an Azure SQL Database.
+
+## 📽️ Demo Video
+
+Watch the full walkthrough:  
+[![Watch the video](media/demo-thumbnail.png)](media/demo.mp4)  
+_(or open `/media/demo.mp4` in this repository)_
+
+## 🔧 Technologies Used
+
+- Azure Data Factory
+- Azure Blob Storage
+- Azure SQL Database
+- GitHub Integration with ADF
+
+## 📁 Repository Structure
+
+- `pipelines/`: Contains ADF pipeline JSON definitions.
+- `datasets/`: Contains dataset definitions for source (CSV) and sink (SQL).
+- `linkedServices/`: Connection info for storage and database.
+- `adf_publish/`: Auto-generated ARM templates for deployment.
+- `media/`: Contains demo video and screenshots.
+
+## ✅ Features
+
+- CSV file ingestion from Azure Blob Storage
+- Data transformation and mapping (via Copy Activity)
+- Automated loading into Azure SQL Database
+- Scheduled execution using triggers
+- Version control with GitHub
+
+
+---
+
+## 🧑‍💻 Step-by-Step Setup
+
+### 🔧 Prerequisites
+- Azure subscription
+- Azure Blob Storage with CSV files uploaded
+- Azure SQL Database with a pre-created table
+- Azure Data Factory instance
+- GitHub account
+
+---
+
+### ⚙️ 1. Create Azure Resources
+- Create a **Blob Storage account** and upload your `.csv` files
+- Create an **Azure SQL Database** and define your destination table:
+```sql
+CREATE TABLE SalesData (
+    OrderID INT,
+    CustomerName VARCHAR(100),
+    ProductName VARCHAR(100),
+    Quantity INT,
+    Price DECIMAL(10, 2),
+    OrderDate DATE
+);
+```
+
+
+---
+### 🧩 2. Set Up Azure Data Factory
+a. Create Linked Services
+Azure Blob Storage: Connect via account key or managed identity
+
+Azure SQL Database: Provide connection string and credentials
+
+b. Create Datasets
+Source Dataset: Delimited text (CSV), point to blob container
+
+Sink Dataset: Azure SQL Table
+
+c. Create Pipeline
+Use Copy Data activity to transfer data from source to sink
+
+Optionally define column mappings and transformations
+
+d. Schedule Execution
+Add a trigger (time-based or event-based) for automation
+---
+
+
+
+### 🔄 3. Integrate with GitHub
+In ADF Studio, go to Manage > Git Configuration
+
+Choose:
+
+Repository type: GitHub
+
+Repository: Your GitHub repo
+
+Collaboration branch: main
+
+Publish branch: adf_publish
+
+Commit and push your ADF objects to GitHub
+---
+
+
+
+## 🗂️ Setup Instructions
+
+1. Clone this repository.
+2. Deploy ADF ARM templates (or import manually in ADF Studio).
+3. Configure your storage and SQL credentials.
+4. Upload your own CSV files to test.
+
+## 🚀 Deployment
+
+You can deploy this pipeline using ADF's GitHub integration or Azure Resource Manager (ARM) templates provided in the `adf_publish` folder.
+
+## 📄 License
+
+This project is licensed under the MIT License. Feel free to reuse or modify.
+
+---
+
