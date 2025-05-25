@@ -39,7 +39,7 @@ _(or open `/media/demo.mp4` in this repository)_
 ---
 ## 📸 AZURE DATA FACTORY
 
-![Screenshot]((https://github.com/Piyush972004/Azure-Data-Factory-CSV-to-Azure-SQL-ETL-Pipeline/blob/9be8b5129d6d5475692336c3b91d8dc90ef0b109/Screenshot%202025-05-25%20143000.png))
+![Screenshot]([(https://github.com/Piyush972004/Azure-Data-Factory-CSV-to-Azure-SQL-ETL-Pipeline/blob/9be8b5129d6d5475692336c3b91d8dc90ef0b109/Screenshot%202025-05-25%20143000.png)](https://github.com/Piyush972004/Azure-Data-Factory-CSV-to-Azure-SQL-ETL-Pipeline/blob/a7c2922aaef2c85690044d7075002e5c81a78182/assets/Screenshot%202025-05-25%20143000.png))
 
 
 ## 📸 AZURE BLOB STORAGE
