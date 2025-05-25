@@ -78,7 +78,7 @@ c. Create Pipeline
 - Optionally define column mappings and transformations
 
 d. Schedule Execution
-Add a trigger (time-based or event-based) for automation
+- Add a trigger (time-based or event-based) for automation
 ---
 
 
@@ -88,15 +88,15 @@ In ADF Studio, go to Manage > Git Configuration
 
 Choose:
 
-Repository type: GitHub
+- Repository type: GitHub
 
-Repository: Your GitHub repo
+- Repository: Your GitHub repo
 
-Collaboration branch: main
+- Collaboration branch: main
 
-Publish branch: adf_publish
+- Publish branch: adf_publish
 
-Commit and push your ADF objects to GitHub
+- Commit and push your ADF objects to GitHub
 ---
 
 
