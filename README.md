@@ -9,7 +9,7 @@ This project demonstrates how to build a scalable ETL pipeline using **Azure Dat
 ## 📽️ Demo Video
 
 Watch the full walkthrough:  
-[![Watch the video](media/demo-thumbnail.png)]([media/demo.mp4](https://github.com/Piyush972004/Azure-Data-Factory-CSV-to-Azure-SQL-ETL-Pipeline/blob/49f95b4c938c526a2bcd5f8e3eeca35bf260d80e/Azure%20data%20factory%20pipline.mp4))  
+[![Watch the video](media/demo-thumbnail.png)](https://github.com/Piyush972004/Azure-Data-Factory-CSV-to-Azure-SQL-ETL-Pipeline/blob/49f95b4c938c526a2bcd5f8e3eeca35bf260d80e/Azure%20data%20factory%20pipline.mp4)
 _(or open `/media/demo.mp4` in this repository)_
 
 ## 🔧 Technologies Used
