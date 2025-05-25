@@ -63,19 +63,19 @@ CREATE TABLE SalesData (
 ---
 ### 🧩 2. Set Up Azure Data Factory
 a. Create Linked Services
-Azure Blob Storage: Connect via account key or managed identity
+- Azure Blob Storage: Connect via account key or managed identity
 
-Azure SQL Database: Provide connection string and credentials
+- Azure SQL Database: Provide connection string and credentials
 
 b. Create Datasets
-Source Dataset: Delimited text (CSV), point to blob container
+- Source Dataset: Delimited text (CSV), point to blob container
 
-Sink Dataset: Azure SQL Table
+- Sink Dataset: Azure SQL Table
 
 c. Create Pipeline
-Use Copy Data activity to transfer data from source to sink
+- Use Copy Data activity to transfer data from source to sink
 
-Optionally define column mappings and transformations
+- Optionally define column mappings and transformations
 
 d. Schedule Execution
 Add a trigger (time-based or event-based) for automation
