@@ -1,6 +1,10 @@
-# Azure Data Factory: CSV to Azure SQL ETL Pipeline
+# 🚀 Azure Data Factory ETL Pipeline: CSV to Azure SQL
 
-This project demonstrates how to use **Azure Data Factory (ADF)** to ingest, transform, and load unstructured CSV data from an Azure Storage Account into an Azure SQL Database.
+This project demonstrates how to build a scalable ETL pipeline using **Azure Data Factory (ADF)**. Unstructured CSV files stored in **Azure Blob Storage** are ingested, transformed, and loaded into a structured format within an **Azure SQL Database**.
+
+> 🔄 Fully automated data integration pipeline with GitHub version control and scheduled execution.
+
+---
 
 ## 📽️ Demo Video
 
